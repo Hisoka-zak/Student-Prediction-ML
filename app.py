@@ -325,6 +325,7 @@ def predict():
         except FileNotFoundError as e:
             return jsonify({"error": str(e)}), 404
         except Exception as e:
+            print(f"Error during prediction: {e}")
             return jsonify({"error": f"Please fill in fields to predict or hide unnecessary assessment"}), 500
 
     except Exception as e:
