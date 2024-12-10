@@ -4,4 +4,5 @@ pandas
 scikit-learn
 joblib
 openpyxl
-imblearn
+imbalanced-learn
+numpy
