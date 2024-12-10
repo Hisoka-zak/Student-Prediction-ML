@@ -1,7 +1,7 @@
 flask
 flask-cors
 pandas
-scikit-learn
+scikit-learn==1.1.3
 joblib
 openpyxl
 imbalanced-learn
